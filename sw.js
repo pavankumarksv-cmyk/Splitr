@@ -1,7 +1,7 @@
 const CACHE = 'splitr-v2';
 const ASSETS = [
   './',
-  './splitr.html',
+  './index.html',
   './manifest.json',
   './style.css',
   './script.js',
@@ -34,7 +34,7 @@ self.addEventListener('fetch', e => {
   caches.open(CACHE).then(c => c.put(e.request, clone));
 }
         return res;
-      }).catch(() => caches.match('./splitr.html'));
+      }).catch(() => caches.match('./index.html'));
     })
   );
 });

@@ -2,7 +2,7 @@
   "name": "Splitr — Borrow Ledger",
   "short_name": "Splitr",
   "description": "Track who owes who. Your personal borrow ledger.",
-  "start_url": "./splitr.html",
+  "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#060612",
   "theme_color": "#7c3aed",
@@ -27,7 +27,7 @@
       "name": "Add Friend",
       "short_name": "Add",
       "description": "Add a new friend to track",
-      "url": "./splitr.html?action=add-friend"
+      "url": "./index.html?action=add-friend"
     }
   ]
 }
